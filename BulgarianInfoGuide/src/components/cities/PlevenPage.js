@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {loadCities} from '../../models/city';
+import {Link} from 'react-router';
 
 export default class PlevenPage extends Component{
     constructor(props){
@@ -28,7 +29,7 @@ export default class PlevenPage extends Component{
         let cityId='';
         for(let city of this.state.cities){
             if(city.name === 'Pleven'){
-                area=city.area;
+                area = city.area;
                 population = city.population;
                 geography = city.geography;
                 history = city.history;
@@ -39,6 +40,7 @@ export default class PlevenPage extends Component{
 
         return(<div>
                 <h2>Pleven info</h2>
+                <Link to={"/wonders"} cityName="pleven">Wonders</Link>
                 <h4>Area:</h4>
                 <div>{area}</div>
                 <h4>Population:</h4>
@@ -47,6 +49,7 @@ export default class PlevenPage extends Component{
                 <div>{geography}</div>
                 <h4>History:</h4>
                 <div>{history}</div>
+
             </div>
         );
     }
