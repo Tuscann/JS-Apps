@@ -23,7 +23,7 @@ export default class LoginForm extends Component{
                            onChange={this.props.onChange}
                            className="form-control"
                            disabled={this.props.inputDisabled}/>
-                    <input type="submit" value="Register"
+                    <input type="submit" value="Login"
                            className="btn-btn-default"
                            disabled={this.props.inputDisabled}/>
                 </div>

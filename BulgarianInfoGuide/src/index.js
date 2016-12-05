@@ -10,6 +10,10 @@ import About from './components/about/AboutPage';
 import Register from './components/register/RegisterPage';
 import Login from './components/login/LoginPage';
 import Logout from './components/logout/LogoutPage';
+import Pleven from './components/cities/PlevenPage';
+import Varna from './components/cities/VarnaPage';
+import Sofia from './components/cities/SofiaPage';
+import Create from './components/create/CreatePage';
 
 ReactDOM.render(
   <Router history={browserHistory}>
@@ -20,6 +24,11 @@ ReactDOM.render(
           <Route path="register" component={Register}/>
           <Route path="login" component={Login}/>
           <Route path="logout" component={Logout}/>
+          <Route path="Pleven" component={Pleven}/>
+          <Route path="Varna" component={Varna}/>
+          <Route path="Sofia" component={Sofia}/>
+          <Route path="Create" component={Create}/>
+
       </Route>
   </Router>,
     document.getElementById('root')
