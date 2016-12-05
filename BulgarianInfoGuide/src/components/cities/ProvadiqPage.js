@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {loadCities} from '../../models/city';
 
-export default class VarnaPage extends Component {
+export default class ProvadiqPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            cityName: 'varna',
+            cityName: 'provadia',
             cities: []
         };
         this.onLoadSuccess = this.onLoadSuccess.bind(this);
@@ -27,7 +27,7 @@ export default class VarnaPage extends Component {
         let history = '';
         let cityId = '';
         for (let city of this.state.cities) {
-            if (city.name === 'Varna') {
+            if (city.name === 'Provadia') {
                 area = city.area;
                 population = city.population;
                 geography = city.geography;
@@ -38,7 +38,7 @@ export default class VarnaPage extends Component {
 
 
         return (<div>
-                <h2>Varna info</h2>
+                <h2>Provadia info</h2>
                 <h4>Area:</h4>
                 <div>{area}</div>
                 <h4>Population:</h4>

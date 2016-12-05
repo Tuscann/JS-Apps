@@ -11,7 +11,7 @@ function loadCityDetails(cityId, onCitySuccess) {
         .then(onCitySuccess);
 }
 
-function loadCityWonders(cityName, callback){
+function loadCityWonders(cityName, callback) {
     get('appdata', cityName, 'kinvey')
         .then(callback);
 }
