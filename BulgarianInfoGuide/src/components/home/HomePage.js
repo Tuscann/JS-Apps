@@ -10,10 +10,10 @@ export default class HomePage extends Component {
                     изброени по долу:
                 </div>
                 <ul>
-                    <li><Link to="/Pleven" name="pleven">Плевен</Link></li>
-                    <li><Link to="/Varna" name="varna">Варна</Link></li>
-                    <li><Link to="/Sofia" name="sofia">София</Link></li>
-                    <li><Link to="/Provadia" name="provadia">Провадия</Link></li>
+                    <li><Link to="/Pleven">Плевен</Link></li>
+                    <li><Link to="/Varna">Варна</Link></li>
+                    <li><Link to="/Sofia">София</Link></li>
+                    <li><Link to="/Provadia">Провадия</Link></li>
                 </ul>
             </div>
         } else {

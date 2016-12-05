@@ -16,6 +16,11 @@ function loadCityWonders(cityName, callback) {
         .then(callback);
 }
 
+function loadWonderDetails(cityName, wonderId, onLoadSuccess) {
+    get('appdata', cityName+ "/" + wonderId, 'kinvey')
+        .then(onLoadSuccess);
+}
+
 
 function edit(cityName, cityId, name, description, imageUrl, callback) {
     let cityWonderData = {
@@ -24,20 +29,20 @@ function edit(cityName, cityId, name, description, imageUrl, callback) {
         image: imageUrl
 
     };
-    update('appdata', cityName.toLowerCase() + cityId, cityWonderData, 'kinvey')
-        .then(()=>callback(true));
+    update('appdata', cityName + cityId, cityWonderData, 'kinvey')
+        .then(callback(true));
 }
 
-function create(cityName, name, description, imageUrl, callback) {
+function create(cityName, name, description, imageUrl, onSuccess) {
     let cityWondersData = {
         name: name,
         description: description,
         image: imageUrl
     };
     post('appdata', cityName, cityWondersData, 'kinvey')
-        .then(()=>callback(true));
+        .then(onSuccess);
 }
 
-export {loadCities, loadCityDetails, loadCityWonders, edit, create}
+export {loadCities, loadCityDetails, loadCityWonders, edit, create, loadWonderDetails}
 
 

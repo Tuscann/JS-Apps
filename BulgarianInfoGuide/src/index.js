@@ -10,25 +10,29 @@ import About from './components/about/AboutPage';
 import Register from './components/register/RegisterPage';
 import Login from './components/login/LoginPage';
 import Logout from './components/logout/LogoutPage';
-import Pleven from './components/cities/PlevenPage';
-import Varna from './components/cities/VarnaPage';
-import Sofia from './components/cities/SofiaPage';
-import Provadia from './components/cities/ProvadiqPage';
+import Town from './components/cities/TownPage';
+import WonderDetail from './components/wonders/WonderDetail';
+import Create from './components/create/CreatePage';
 
 
 ReactDOM.render(
     <Router history={browserHistory}>
         <Route path="/" component={App}>
-            <IndexRoute component={Home}/>
-            <Route path="Pleven" component={Pleven}/>
-            <Route path="Varna" component={Varna}/>
-            <Route path="Sofia" component={Sofia}/>
-            <Route path="Provadia" component={Provadia}/>
-            <Route path="wonders" component={Wonders}/>
             <Route path="about" component={About}/>
             <Route path="register" component={Register}/>
             <Route path="login" component={Login}/>
             <Route path="logout" component={Logout}/>
+            <IndexRoute component={Home}/>
+            <Route path=":town" >
+                <IndexRoute component={Town}/>
+                <Route path="wonders">
+                    <IndexRoute component={Wonders}/>
+                    <Route path=":wonderId" component={WonderDetail}/>
+                </Route>
+                <Route path="create">
+                    <IndexRoute component={Create}/>
+                </Route>
+            </Route>
         </Route>
     </Router>,
     document.getElementById('root')

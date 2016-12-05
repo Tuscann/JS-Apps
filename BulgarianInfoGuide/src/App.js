@@ -47,7 +47,6 @@ class App extends Component {
                     <Header loggedIn={this.state.loggedIn} username={this.state.username}>
                         <Link to="/" className="btn btn-default">Home</Link>
                         <Link to="/about" className="btn btn-default">About</Link>
-                        <Link to="/wonders" className="btn btn-default">Wonders</Link>
                         <Link to="/logout" className="btn btn-default">Logout</Link>
                     </Header>
                     {this.props.children}
