@@ -13,6 +13,7 @@ import Logout from './components/logout/LogoutPage';
 import Pleven from './components/cities/PlevenPage';
 import Varna from './components/cities/VarnaPage';
 import Sofia from './components/cities/SofiaPage';
+import Provadia from './components/cities/ProvadiqPage';
 import Create from './components/create/CreatePage';
 
 ReactDOM.render(
@@ -27,6 +28,7 @@ ReactDOM.render(
           <Route path="Pleven" component={Pleven}/>
           <Route path="Varna" component={Varna}/>
           <Route path="Sofia" component={Sofia}/>
+          <Route path="Provadia" component={Provadia}/>
           <Route path="Create" component={Create}/>
 
       </Route>
