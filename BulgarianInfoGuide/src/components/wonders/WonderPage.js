@@ -33,7 +33,12 @@ export default class WondersPage extends Component{
                 </thead>
                 <tbody>
                 {this.state.wonders.map((e, i) => {
-                    return <Wonder key={i} name={e.name} id={e._id} description={e.description} userCreator={e._acl.creator} cityName={this.props.params.town}/>
+                    return <Wonder key={i} name={e.name}
+                                   id={e._id}
+                                   description={e.description}
+                                   userCreator={e._acl.creator}
+                                   cityName={this.props.params.town}
+                    />
                 })}
                 </tbody>
              </table>

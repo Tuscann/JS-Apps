@@ -39,8 +39,6 @@ export default class TownPage extends Component{
 
         return(<div>
                 <h2>{this.props.params.town} info</h2>
-                <Link to={this.props.params.town + "/wonders"} className="btn btn-default">Wonders</Link>
-                <Link to={this.props.params.town + "/create"} className="btn btn-default">Create</Link>
                 <h4>Area:</h4>
                 <div>{area}</div>
                 <h4>Population:</h4>

@@ -33,14 +33,14 @@ function edit(cityName, cityId, name, description, imageUrl, callback) {
         .then(callback(true));
 }
 
-function create(cityName, name, description, imageUrl, onSuccess) {
+function create(cityName, name, description, imageUrl, callback) {
     let cityWondersData = {
         name: name,
         description: description,
         image: imageUrl
     };
     post('appdata', cityName, cityWondersData, 'kinvey')
-        .then(onSuccess);
+        .then(callback(true));
 }
 
 export {loadCities, loadCityDetails, loadCityWonders, edit, create, loadWonderDetails}

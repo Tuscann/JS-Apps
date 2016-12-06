@@ -5,7 +5,12 @@ import {create} from '../../models/city';
 export default class CreatePage extends Component {
     constructor(props) {
         super(props);
-        this.state = {name: '', description: '', image:'', submitDisabled: false};
+        this.state = {
+            name: '',
+            description: '',
+            image:'',
+            submitDisabled: false
+        };
 
         this.onChangeHandler = this.onChangeHandler.bind(this);
         this.onSubmitHandler = this.onSubmitHandler.bind(this);
@@ -29,7 +34,8 @@ export default class CreatePage extends Component {
 
     onSubmitResponse(response) {
         if (response === true) {
-            this.context.router.push('/');
+            let path='/'+this.props.params.town + '/wonders';
+            this.context.router.push(path);
         }
     }
 

@@ -25,12 +25,10 @@ export default class WonderDetail extends Component {
     render() {
         return (
             <div className="details-box">
-                <span>Name of Wonder</span>
-                <span className="titlebar">{this.state.wonder.name}</span>
-                <span className="spanner">Description</span>
+                <img src = {this.state.wonder.image} className="image"></img>
+                <h3 className="titlebar">{this.state.wonder.name}</h3>
                 <p>{this.state.wonder.description || 'No description'}</p>
-                <span className="spanner"> Image:</span>
-                <span className="spanner">{this.state.wonder.image}</span>
+
             </div>
         )
     }

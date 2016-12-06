@@ -7,10 +7,10 @@ export default class Wonder extends Component {
     }
     render() {
 
-        let link=<Link to={this.props.cityName +"/wonders/" + this.props.id}>Read more</Link>;
+        let link=<Link to={'/'+this.props.cityName +"/wonders/" + this.props.id} className="btn btn-default">Read more</Link>;
         if(this.props.userCreator === sessionStorage.getItem('userId')){
-            link=[<Link to={this.props.cityName+"/wonders/" + this.props.id} key="0">Read more</Link>,
-                <Link to={this.props.cityName+"/wonders/edit"} key="1">Edit</Link>];
+            link=[<Link to={'/'+this.props.cityName+"/wonders/" + this.props.id} key="0" className="btn btn-default">Read more</Link>,' ',
+                <Link to={'/'+this.props.cityName+"/wonders/edit"} key="1" className="btn btn-default">Edit</Link>];
         }
         return(
             <tr>
