@@ -1,0 +1,56 @@
+
+#map{
+    background-image:url('../../../image/Bulgaria4.png');
+    width:1158px;
+    height:551px;
+    color:black;
+    font-size:18px;
+    position: center;
+}
+
+#Pleven{
+    position: absolute;
+    left:40%;
+    top: 68%;
+}
+
+#Sofia{
+    position: absolute;
+    left:28%;
+    top:84%;
+}
+
+#Varna{
+    position: absolute;
+    left:70%;
+    top:69%;
+}
+
+#Provadia{
+    position: absolute;
+    left:63%;
+    top:67%;
+}
+
+#Russe{
+    position: absolute;
+    left:54%;
+    top:56%;
+}
+#Vidin{
+    position: absolute;
+    left:24%;
+    top:53%;
+}
+
+#Plovdiv{
+     position: absolute;
+     left:40%;
+     top:98%;
+}
+
+#Bourgas{
+    position: absolute;
+    left:65%;
+    top:89%;
+}
