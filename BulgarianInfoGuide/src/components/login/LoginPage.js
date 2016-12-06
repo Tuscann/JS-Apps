@@ -46,8 +46,8 @@ export default class LoginPage extends Component{
 
     render(){
         return(
-            <div>
-               <h1>Login Page</h1>
+            <div className="all-forms">
+               <h3>Вход</h3>
                 <LoginForm
                     username={this.state.username}
                     password={this.state.password}

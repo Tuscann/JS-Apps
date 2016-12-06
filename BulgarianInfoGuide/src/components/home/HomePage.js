@@ -9,8 +9,7 @@ export default class HomePage extends Component {
         let message = "";
         if (sessionStorage.getItem('username')) {
             message = <div>
-                <div>Това е малък сайт за интересни факти за някои градове в България. Изберете някой от градовете
-                    показани на картата:
+                <div>Изберете някой от градовете показани на картата:
                 </div>
                 <div id="map">
                     <Link to="/Pleven" id="Pleven">Плевен</Link>
@@ -25,7 +24,7 @@ export default class HomePage extends Component {
             </div>
         } else {
             message = <div>Това е малък сайт за интересни факти за някои градове в България. За да използвате цялата
-                функцуоналност на сайта, моля <Link to="/login">login</Link>.</div>
+                функционалност на сайта, моля използвайте <Link to="/login">вход</Link> формата.</div>
         }
         return (
             message

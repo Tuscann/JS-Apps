@@ -12,10 +12,14 @@ export default class Wonder extends Component {
             link=[<Link to={'/'+this.props.cityName+"/wonders/" + this.props.id} key="0" className="btn btn-default">Read more</Link>,' ',
                 <Link to={'/'+this.props.cityName+"/wonders/edit"} key="1" className="btn btn-default">Edit</Link>];
         }
+        let desc = this.props.description;
+        let shortDesc= desc.substr(0,30);
+        if(desc.length> shortDesc.length)
+            shortDesc+="...";
         return(
             <tr>
                 <td>{this.props.name}</td>
-                <td>{this.props.description}</td>
+                <td>{shortDesc}</td>
                 <td>{link}</td>
             </tr>
         )

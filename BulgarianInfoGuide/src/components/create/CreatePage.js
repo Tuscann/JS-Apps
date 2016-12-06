@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import CreateForm from '../create/CreateForm';
 import {create} from '../../models/city';
+import './Create.css';
 
 export default class CreatePage extends Component {
     constructor(props) {
@@ -41,8 +42,8 @@ export default class CreatePage extends Component {
 
     render() {
         return (
-            <div>
-                <h1>Create Wonder in {this.props.params.town}</h1>
+            <div className="all-forms">
+                <h3>Добави забележителност към град {this.props.params.town}</h3>
                 <CreateForm
                     name={this.state.name}
                     description={this.state.description}

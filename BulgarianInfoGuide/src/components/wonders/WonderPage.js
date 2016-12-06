@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {loadCityWonders} from '../../models/city';
 import Wonder from './Wonder';
+import './Wonder.css';
 
 export default class WondersPage extends Component{
     constructor(props){
@@ -22,13 +23,13 @@ export default class WondersPage extends Component{
 
 
     render(){
-         return(<div>
-            <table className="table .table-bordered">
+         return(<div className="wonder-forms">
+            <table className="table table-striped table-bordered" >
                 <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Action</th>
+                    <th>Име</th>
+                    <th>Описание</th>
+                    <th>Действия</th>
                 </tr>
                 </thead>
                 <tbody>

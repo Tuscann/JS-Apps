@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import RegisterForm from './RegisterForm';
 import {register} from '../../models/user';
 import observer from '../../models/observer';
+import './Register.css';
 
 
 export default class RegisterPage extends Component{
@@ -51,8 +52,8 @@ export default class RegisterPage extends Component{
 
     render(){
         return(
-            <div>
-               <h1>Register Page</h1>
+            <div className="all-forms">
+               <h3>Регистрация</h3>
                 <RegisterForm
                     username={this.state.username}
                     password={this.state.password}

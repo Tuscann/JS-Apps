@@ -5,27 +5,23 @@ export default class LogoutPage extends Component {
     constructor(props) {
         super(props);
         this.logout();
-        this.onLogoutSuccess=this.onLogoutSuccess.bind(this)
-
     }
 
     logout() {
-        logout(this.onLogoutSuccess);
+        logout(this.onSubmitResponse.bind(this));
     }
 
-    onLogoutSuccess(response) {
+    onSubmitResponse(response) {
         if (response === true) {
             // Navigate away from login page
-            this.context.router.push("/");
-        } else {
-            // Something went wrong, let the user know
+            this.context.router.push('/');
         }
     }
 
     render() {
         return (
             <div>
-                <span>Logout Page</span>
+                <span>Вие успешно излязохте. Ако желаете да се възползвате от функционалността на сайта отидете на страницата</span>
             </div>
         );
     }

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {loadWonderDetails} from '../../models/city';
+import './Wonder.css';
 
 export default class WonderDetail extends Component {
     constructor(props) {
@@ -25,10 +26,9 @@ export default class WonderDetail extends Component {
     render() {
         return (
             <div className="details-box">
+                <h3 className="titlename">{this.state.wonder.name}</h3>
                 <img src = {this.state.wonder.image} className="image"></img>
-                <h3 className="titlebar">{this.state.wonder.name}</h3>
-                <p>{this.state.wonder.description || 'No description'}</p>
-
+                <div className="wonder-description">{this.state.wonder.description || 'Няма описание'}</div>
             </div>
         )
     }

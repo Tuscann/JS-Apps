@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Register.css';
 
 export default class RegisterForm extends Component{
     render(){
@@ -6,7 +7,7 @@ export default class RegisterForm extends Component{
             <form onSubmit={this.props.onSubmit}>
                 <div className="form-group">
                     <label>
-                        Username:
+                        Потребителско име:
                     </label>
                     <input type="text" name="username"
                            value={this.props.username}
@@ -17,7 +18,7 @@ export default class RegisterForm extends Component{
                 </div>
                 <div className="form-group">
                     <label>
-                        Password:
+                        Парола:
                     </label>
                     <input type="password" name="password"
                            value={this.props.password}
@@ -27,17 +28,17 @@ export default class RegisterForm extends Component{
                 </div>
                 <div className="form-group">
                     <label>
-                        Repeat password:
+                        Повтори паролата:
                     </label>
                     <input type="password" name="repeat"
                            value={this.props.repeat}
                            onChange={this.props.onChange}
                            className="form-control"
                            disabled={this.props.inputDisabled}/>
-                    <input type="submit" value="Register" 
-                           className="btn-btn-default"
-                           disabled={this.props.inputDisabled}/>
                 </div>
+                <input type="submit" value="Регистрация"
+                       className="btn-btn-default"
+                       disabled={this.props.inputDisabled}/>
             </form>
         );
     }
