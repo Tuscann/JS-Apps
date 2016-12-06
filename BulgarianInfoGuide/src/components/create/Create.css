@@ -1,0 +1,9 @@
+.all-forms{
+    position: absolute;
+    width: 35%;
+    margin-bottom: 30px;
+}
+
+.form-group{
+    width: 80%;
+}

@@ -1,0 +1,28 @@
+.wonder-forms{
+    position: absolute;
+    width: 55%;
+    left: 12%;
+}
+
+.details-box{
+    position: absolute;
+    left: 12%;
+    width: 70%;
+}
+
+.image{
+    display: block;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    width: 50%;
+}
+
+.titlename{
+    text-align: center;
+}
+
+.wonder-detail-description{
+    position: absolute;
+    width: 50%;
+}

@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8ed7adef-ac9d-4ff7-afff-576a1a82d3a4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about/AboutPage.js" afterPath="$PROJECT_DIR$/src/components/about/AboutPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/cities/TownPage.js" afterPath="$PROJECT_DIR$/src/components/cities/TownPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/Greeting.js" afterPath="$PROJECT_DIR$/src/components/common/Greeting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/create/CreateForm.js" afterPath="$PROJECT_DIR$/src/components/create/CreateForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/create/CreatePage.js" afterPath="$PROJECT_DIR$/src/components/create/CreatePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home/HomePage.js" afterPath="$PROJECT_DIR$/src/components/home/HomePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/login/LoginForm.js" afterPath="$PROJECT_DIR$/src/components/login/LoginForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/login/LoginPage.js" afterPath="$PROJECT_DIR$/src/components/login/LoginPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/logout/LogoutPage.js" afterPath="$PROJECT_DIR$/src/components/logout/LogoutPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/register/RegisterForm.js" afterPath="$PROJECT_DIR$/src/components/register/RegisterForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/register/RegisterPage.js" afterPath="$PROJECT_DIR$/src/components/register/RegisterPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/wonders/Wonder.js" afterPath="$PROJECT_DIR$/src/components/wonders/Wonder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/wonders/WonderDetail.js" afterPath="$PROJECT_DIR$/src/components/wonders/WonderDetail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/wonders/WonderPage.js" afterPath="$PROJECT_DIR$/src/components/wonders/WonderPage.js" />
     </list>
     <ignored path="BulgarianInfoGuide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -456,7 +440,7 @@
       <workItem from="1480939082815" duration="9974000" />
       <workItem from="1480953911208" duration="13477000" />
       <workItem from="1481025876619" duration="9475000" />
-      <workItem from="1481045516282" duration="18864000" />
+      <workItem from="1481045516282" duration="18903000" />
     </task>
     <task id="LOCAL-00001" summary="create page / home page">
       <created>1480927202533</created>
@@ -507,11 +491,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481049602726</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="footer, styling pages">
+      <created>1481068334875</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1481068334875</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75693000" />
+    <option name="totallyTimeSpent" value="75732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -555,7 +546,8 @@
     <MESSAGE value="TownPage, WonderPage, ReadMore Wonder Page, Create Wonder Page" />
     <MESSAGE value="imageLink, new NavBar with new buttons, correct working routing :)" />
     <MESSAGE value="Bulgaria map/ correct routing/ correct buttons in navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bulgaria map/ correct routing/ correct buttons in navbar" />
+    <MESSAGE value="footer, styling pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer, styling pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

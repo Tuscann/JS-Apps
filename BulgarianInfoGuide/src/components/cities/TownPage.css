@@ -1,0 +1,10 @@
+.town-title{
+    text-align: center;
+}
+
+.town-params-name{
+    position: absolute;
+    left: 12%;
+    width: 70%;
+
+}
