@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8ed7adef-ac9d-4ff7-afff-576a1a82d3a4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/create/CreatePage.js" afterPath="$PROJECT_DIR$/src/components/create/CreatePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/register/RegisterPage.js" afterPath="$PROJECT_DIR$/src/components/register/RegisterPage.js" />
     </list>
     <ignored path="BulgarianInfoGuide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -389,7 +387,7 @@
       <workItem from="1481025876619" duration="9475000" />
       <workItem from="1481045516282" duration="19017000" />
       <workItem from="1481089949263" duration="3607000" />
-      <workItem from="1481098254681" duration="5307000" />
+      <workItem from="1481098254681" duration="5351000" />
     </task>
     <task id="LOCAL-00001" summary="create page / home page">
       <created>1480927202533</created>
@@ -475,14 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1481102549274</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="small valiation">
+      <created>1481106664002</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1481106664002</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84760000" />
+    <option name="totallyTimeSpent" value="84804000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15178572" sideWeight="0.71955717" order="0" side_tool="false" content_ui="combo" />
@@ -527,7 +532,8 @@
     <MESSAGE value="EditPage" />
     <MESSAGE value="styling" />
     <MESSAGE value="small validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="small validation" />
+    <MESSAGE value="small valiation" />
+    <option name="LAST_COMMIT_MESSAGE" value="small valiation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
