@@ -23,27 +23,33 @@ export default class WondersPage extends Component{
 
 
     render(){
-         return(<div className="wonder-forms">
-            <table className="table table-striped table-bordered" >
-                <thead>
-                <tr>
-                    <th>Име</th>
-                    <th>Описание</th>
-                    <th>Действия</th>
-                </tr>
-                </thead>
-                <tbody>
-                {this.state.wonders.map((e, i) => {
-                    return <Wonder key={i} name={e.name}
-                                   id={e._id}
-                                   description={e.description}
-                                   userCreator={e._acl.creator}
-                                   cityName={this.props.params.town}
-                    />
-                })}
-                </tbody>
-             </table>
-             </div>
-        );
+        if(sessionStorage.getItem('username')) {
+            return (<div className="wonder-forms">
+                    <table className="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Име</th>
+                            <th>Описание</th>
+                            <th>Действия</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {this.state.wonders.map((e, i) => {
+                            return <Wonder key={i} name={e.name}
+                                           id={e._id}
+                                           description={e.description}
+                                           userCreator={e._acl.creator}
+                                           cityName={this.props.params.town}
+                            />
+                        })}
+                        </tbody>
+                    </table>
+                </div>
+            );
+        } else{
+            return(
+            <div>Трябва да влезете в сайта, Моля използвайте Вход бутона</div>
+            );
+        }
     }
 }

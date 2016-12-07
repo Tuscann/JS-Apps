@@ -24,13 +24,19 @@ export default class WonderDetail extends Component {
 
 
     render() {
-        return (
-            <div className="details-box">
-                <h3 className="titlename">{this.state.wonder.name}</h3>
-                <img src = {this.state.wonder.image} className="image"></img>
-                <div>{this.state.wonder.description || 'Няма описание'}</div>
-            </div>
-        )
+        
+        if(sessionStorage.getItem('username')){
+            return (
+                <div className="details-box">
+                    <h3 className="titlename">{this.state.wonder.name}</h3>
+                    <img src = {this.state.wonder.image} className="image"></img>
+                    <div>{this.state.wonder.description || 'Няма описание'}</div>
+                </div>
+            )
+        } else{
+            return (<div>Трябва да влезете в сайта, Моля използвайте Вход бутона</div>);
+        }
+        
     }
 }
 

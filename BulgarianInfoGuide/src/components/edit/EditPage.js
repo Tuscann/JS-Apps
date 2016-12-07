@@ -64,31 +64,51 @@ export default class EditPage extends Component {
     }
 
     render() {
-        let cityNamee='';
-        switch(this.props.params.town){
-            case "Pleven": cityNamee="Плевен"; break;
-            case "Plovdiv": cityNamee="Пловдив"; break;
-            case "Sofia": cityNamee="София"; break;
-            case "Varna": cityNamee="Варна"; break;
-            case "Provadia": cityNamee="Провадия"; break;
-            case "Bourgas": cityNamee="Бургас"; break;
-            case "Vidin": cityNamee="Видин"; break;
-            case "Russe": cityNamee="Русе"; break;
-        }
+        if(sessionStorage.getItem('username')) {
+            let cityNamee = '';
+            switch (this.props.params.town) {
+                case "Pleven":
+                    cityNamee = "Плевен";
+                    break;
+                case "Plovdiv":
+                    cityNamee = "Пловдив";
+                    break;
+                case "Sofia":
+                    cityNamee = "София";
+                    break;
+                case "Varna":
+                    cityNamee = "Варна";
+                    break;
+                case "Provadia":
+                    cityNamee = "Провадия";
+                    break;
+                case "Bourgas":
+                    cityNamee = "Бургас";
+                    break;
+                case "Vidin":
+                    cityNamee = "Видин";
+                    break;
+                case "Russe":
+                    cityNamee = "Русе";
+                    break;
+            }
 
-        return (
-            <div className="all-forms">
-                <h3>Промени забележителност към град {cityNamee}</h3>
-                <EditForm
-                    name={this.state.name}
-                    description={this.state.description}
-                    image={this.state.image}
-                    submitDisabled={this.state.submitDisabled}
-                    onChangeHandler={this.onChangeHandler}
-                    onSubmitHandler={this.onSubmitHandler}
-                />
-            </div>
-        );
+            return (
+                <div className="all-forms">
+                    <h3>Промени забележителност към град {cityNamee}</h3>
+                    <EditForm
+                        name={this.state.name}
+                        description={this.state.description}
+                        image={this.state.image}
+                        submitDisabled={this.state.submitDisabled}
+                        onChangeHandler={this.onChangeHandler}
+                        onSubmitHandler={this.onSubmitHandler}
+                    />
+                </div>
+            );
+        }else{
+            return (<div>Трябва да влезете в сайта, Моля използвайте Вход бутона</div>);
+        }
     }
 }
 
