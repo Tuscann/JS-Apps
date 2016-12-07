@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed7adef-ac9d-4ff7-afff-576a1a82d3a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/edit/EditForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/edit/EditPage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/create/Create.css" afterPath="$PROJECT_DIR$/src/components/create/Create.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/create/CreateForm.js" afterPath="$PROJECT_DIR$/src/components/create/CreateForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/create/CreatePage.js" afterPath="$PROJECT_DIR$/src/components/create/CreatePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/wonders/Wonder.css" afterPath="$PROJECT_DIR$/src/components/wonders/Wonder.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/wonders/Wonder.js" afterPath="$PROJECT_DIR$/src/components/wonders/Wonder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/wonders/WonderDetail.js" afterPath="$PROJECT_DIR$/src/components/wonders/WonderDetail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/city.js" afterPath="$PROJECT_DIR$/src/models/city.js" />
     </list>
     <ignored path="BulgarianInfoGuide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -424,7 +414,7 @@
       <workItem from="1480953911208" duration="13477000" />
       <workItem from="1481025876619" duration="9475000" />
       <workItem from="1481045516282" duration="19017000" />
-      <workItem from="1481089949263" duration="3223000" />
+      <workItem from="1481089949263" duration="3280000" />
     </task>
     <task id="LOCAL-00001" summary="create page / home page">
       <created>1480927202533</created>
@@ -482,14 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1481068334875</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="EditPage">
+      <created>1481093205958</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1481093205958</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79069000" />
+    <option name="totallyTimeSpent" value="79126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15178572" sideWeight="0.5584906" order="0" side_tool="false" content_ui="combo" />
@@ -531,7 +528,8 @@
     <MESSAGE value="imageLink, new NavBar with new buttons, correct working routing :)" />
     <MESSAGE value="Bulgaria map/ correct routing/ correct buttons in navbar" />
     <MESSAGE value="footer, styling pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer, styling pages" />
+    <MESSAGE value="EditPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="EditPage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
