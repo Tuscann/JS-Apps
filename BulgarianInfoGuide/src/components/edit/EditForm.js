@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class CreateForm extends Component {
+export default class EditForm extends Component {
     render() {
         return (
             <form onSubmit={this.props.onSubmitHandler}>
@@ -8,7 +8,6 @@ export default class CreateForm extends Component {
                     <label>Име:</label>
                     <input
                         className="form-control"
-                        width="120px"
                         type="text"
                         name="name"
                         value={this.props.name}
@@ -18,7 +17,8 @@ export default class CreateForm extends Component {
                 </div>
                 <div className="form-group">
                     <label>Описание:</label>
-                    <textarea rows="7"
+                    <textarea
+                        rows="7"
                         className="form-control"
                         name="description"
                         value={this.props.description}
@@ -30,13 +30,14 @@ export default class CreateForm extends Component {
                     <label>Url към снимка:</label>
                     <input
                         className="form-control"
+                        type="text"
                         name="image"
                         value={this.props.image}
                         disabled={this.props.submitDisabled}
                         onChange={this.props.onChangeHandler}
                     />
                 </div>
-                <input className="btn btn-default" type="submit" value="Добави" disabled={this.props.submitDisabled}/>
+                <input className="btn btn-default" type="submit" value="Промени" disabled={this.props.submitDisabled}/>
             </form>
         );
     }

@@ -28,7 +28,7 @@ export default class WonderDetail extends Component {
             <div className="details-box">
                 <h3 className="titlename">{this.state.wonder.name}</h3>
                 <img src = {this.state.wonder.image} className="image"></img>
-                <div className="wonder-description">{this.state.wonder.description || 'Няма описание'}</div>
+                <div>{this.state.wonder.description || 'Няма описание'}</div>
             </div>
         )
     }

@@ -10,7 +10,7 @@ export default class Wonder extends Component {
         let link=<Link to={'/'+this.props.cityName +"/wonders/" + this.props.id} className="btn btn-default">Read more</Link>;
         if(this.props.userCreator === sessionStorage.getItem('userId')){
             link=[<Link to={'/'+this.props.cityName+"/wonders/" + this.props.id} key="0" className="btn btn-default">Read more</Link>,' ',
-                <Link to={'/'+this.props.cityName+"/wonders/edit"} key="1" className="btn btn-default">Edit</Link>];
+                <Link to={'/'+this.props.cityName+"/wonders/"+this.props.id + "/edit"} key="1" className="btn btn-default">Edit</Link>];
         }
         let desc = this.props.description;
         let shortDesc= desc.substr(0,30);

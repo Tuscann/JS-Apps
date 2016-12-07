@@ -13,6 +13,7 @@ import Logout from './components/logout/LogoutPage';
 import Town from './components/cities/TownPage';
 import WonderDetail from './components/wonders/WonderDetail';
 import Create from './components/create/CreatePage';
+import Edit from './components/edit/EditPage';
 
 
 ReactDOM.render(
@@ -27,7 +28,10 @@ ReactDOM.render(
                 <IndexRoute component={Town}/>
                 <Route path="wonders">
                     <IndexRoute component={Wonders}/>
-                    <Route path=":wonderId" component={WonderDetail}/>
+                    <Route path=":wonderId">
+                        <IndexRoute component={WonderDetail}/>
+                        <Route path="edit" component={Edit}/>
+                    </Route>
                 </Route>
                 <Route path="create">
                     <IndexRoute component={Create}/>

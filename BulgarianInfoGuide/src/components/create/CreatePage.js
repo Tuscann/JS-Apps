@@ -41,9 +41,21 @@ export default class CreatePage extends Component {
     }
 
     render() {
+        let cityName='';
+        switch(this.props.params.town){
+            case "Pleven": cityName="Плевен"; break;
+            case "Plovdiv": cityName="Пловдив"; break;
+            case "Sofia": cityName="София"; break;
+            case "Varna": cityName="Варна"; break;
+            case "Provadia": cityName="Провадия"; break;
+            case "Bourgas": cityName="Бургас"; break;
+            case "Vidin": cityName="Видин"; break;
+            case "Russe": cityName="Русе"; break;
+        }
+
         return (
             <div className="all-forms">
-                <h3>Добави забележителност към град {this.props.params.town}</h3>
+                <h3>Добави забележителност към град {cityName}</h3>
                 <CreateForm
                     name={this.state.name}
                     description={this.state.description}

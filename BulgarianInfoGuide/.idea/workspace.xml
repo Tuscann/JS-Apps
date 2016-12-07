@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed7adef-ac9d-4ff7-afff-576a1a82d3a4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/edit/EditForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/edit/EditPage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/create/Create.css" afterPath="$PROJECT_DIR$/src/components/create/Create.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/create/CreateForm.js" afterPath="$PROJECT_DIR$/src/components/create/CreateForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/create/CreatePage.js" afterPath="$PROJECT_DIR$/src/components/create/CreatePage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/wonders/Wonder.css" afterPath="$PROJECT_DIR$/src/components/wonders/Wonder.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/wonders/Wonder.js" afterPath="$PROJECT_DIR$/src/components/wonders/Wonder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/wonders/WonderDetail.js" afterPath="$PROJECT_DIR$/src/components/wonders/WonderDetail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/city.js" afterPath="$PROJECT_DIR$/src/models/city.js" />
     </list>
     <ignored path="BulgarianInfoGuide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,43 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+      <file leaf-file-name="EditForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/edit/EditForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/home/HomePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" column="87" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="87" />
+            <state relative-caret-position="9">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common-style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/common-style.css">
+      <file leaf-file-name="WonderPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/wonders/WonderPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogoutPage.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/logout/LogoutPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="23" column="125" selection-start-line="23" selection-start-column="125" selection-end-line="23" selection-end-column="125" />
+            <state relative-caret-position="425">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="44" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -67,54 +55,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Create.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/create/Create.css">
+      <file leaf-file-name="Wonder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/wonders/Wonder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreatePage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/create/CreatePage.js">
+      <file leaf-file-name="EditPage.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/edit/EditPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-467">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WonderDetail.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/wonders/WonderDetail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="108" selection-start-line="30" selection-start-column="108" selection-end-line="30" selection-end-column="108" />
+            <state relative-caret-position="-263">
+              <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wonder.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/wonders/Wonder.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -147,12 +105,9 @@
         <option value="$PROJECT_DIR$/src/components/cities/VarnaPage.js" />
         <option value="$PROJECT_DIR$/src/components/cities/ProvadiqPage.js" />
         <option value="$PROJECT_DIR$/src/components/cities/PlevenPage.js" />
-        <option value="$PROJECT_DIR$/src/models/city.js" />
         <option value="$PROJECT_DIR$/src/models/user.js" />
         <option value="$PROJECT_DIR$/src/components/home/BulgariaMap.js" />
         <option value="$PROJECT_DIR$/src/components/home/HomePage.css" />
-        <option value="$PROJECT_DIR$/src/components/create/CreateForm.js" />
-        <option value="$PROJECT_DIR$/src/components/create/CreatePage.js" />
         <option value="$PROJECT_DIR$/src/components/login/LoginPage.js" />
         <option value="$PROJECT_DIR$/src/components/register/RegisterPage.js" />
         <option value="$PROJECT_DIR$/src/components/register/RegisterForm.js" />
@@ -160,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/components/login/Login.css" />
         <option value="$PROJECT_DIR$/src/components/login/LoginForm.js" />
         <option value="$PROJECT_DIR$/src/components/wonders/WonderPage.js" />
-        <option value="$PROJECT_DIR$/src/components/wonders/Wonder.js" />
         <option value="$PROJECT_DIR$/src/components/cities/TownPage.css" />
         <option value="$PROJECT_DIR$/src/components/cities/TownPage.js" />
         <option value="$PROJECT_DIR$/src/components/home/HomePage.js" />
@@ -168,14 +122,21 @@
         <option value="$PROJECT_DIR$/src/components/common/Footer.js" />
         <option value="$PROJECT_DIR$/src/components/common/Greeting.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/components/wonders/WonderDetail.js" />
-        <option value="$PROJECT_DIR$/src/components/wonders/Wonder.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/common/common-style.css" />
-        <option value="$PROJECT_DIR$/src/components/create/Create.css" />
         <option value="$PROJECT_DIR$/src/components/about/AboutPage.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/logout/LogoutPage.js" />
+        <option value="$PROJECT_DIR$/src/components/wonders/WonderDetail.js" />
+        <option value="$PROJECT_DIR$/src/components/create/CreatePage.js" />
+        <option value="$PROJECT_DIR$/src/components/create/Create.css" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/wonders/Wonder.js" />
+        <option value="$PROJECT_DIR$/src/components/edit/Edit.css" />
+        <option value="$PROJECT_DIR$/src/components/create/CreateForm.js" />
+        <option value="$PROJECT_DIR$/src/components/edit/EditForm.js" />
+        <option value="$PROJECT_DIR$/src/models/city.js" />
+        <option value="$PROJECT_DIR$/src/components/edit/EditPage.js" />
+        <option value="$PROJECT_DIR$/src/components/wonders/Wonder.css" />
       </list>
     </option>
   </component>
@@ -221,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,26 +250,8 @@
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BulgarianInfoGuide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BulgarianInfoGuide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logout" />
+              <option name="myItemId" value="wonders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,14 +272,53 @@
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="BulgarianInfoGuide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BulgarianInfoGuide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BulgarianInfoGuide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BulgarianInfoGuide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -352,14 +335,14 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BulgarianInfoGuideProject\JS-Apps\BulgarianInfoGuide\image" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BulgarianInfoGuideProject\JS-Apps\BulgarianInfoGuide\src\components\edit" />
       <recent name="D:\BulgarianInfoGuideProject\JS-Apps\BulgarianInfoGuide\src\components\wonders" />
       <recent name="D:\BulgarianInfoGuideProject\JS-Apps\BulgarianInfoGuide\src\components\register" />
       <recent name="D:\BulgarianInfoGuideProject\JS-Apps\BulgarianInfoGuide\src\components\login" />
-      <recent name="D:\BulgarianInfoGuideProject\JS-Apps\BulgarianInfoGuide\image" />
-      <recent name="D:\BulgarianInfoGuideProject\JS-Apps\BulgarianInfoGuide\src\components\home" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\BulgarianInfoGuideProject\JS-Apps\BulgarianInfoGuide\image" />
     </key>
   </component>
@@ -440,7 +423,8 @@
       <workItem from="1480939082815" duration="9974000" />
       <workItem from="1480953911208" duration="13477000" />
       <workItem from="1481025876619" duration="9475000" />
-      <workItem from="1481045516282" duration="18903000" />
+      <workItem from="1481045516282" duration="19017000" />
+      <workItem from="1481089949263" duration="3223000" />
     </task>
     <task id="LOCAL-00001" summary="create page / home page">
       <created>1480927202533</created>
@@ -502,16 +486,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75732000" />
+    <option name="totallyTimeSpent" value="79069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15178572" sideWeight="0.5660377" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15178572" sideWeight="0.5584906" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="npm" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15178572" sideWeight="0.43396226" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15178572" sideWeight="0.44150943" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14790997" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -556,8 +540,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/common/Infobox.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/common/Navbar.js" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -578,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/cities/VarnaPage.js" />
     <entry file="file://$PROJECT_DIR$/src/models/observer.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -597,15 +572,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/cities/SofiaPage.js" />
     <entry file="file://$PROJECT_DIR$/src/components/cities/ProvadiqPage.js" />
     <entry file="file://$PROJECT_DIR$/src/components/cities/PlevenPage.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/edit/EditForm.js" />
-    <entry file="file://$PROJECT_DIR$/src/models/city.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/Bulgaria2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -621,32 +587,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/BulgariaMap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/Bulgaria4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/create/CreateForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/BulgariaMap.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/home/Bulgaria4.png" />
     <entry file="file://$PROJECT_DIR$/src/components/home/HomePage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +601,7 @@
         <state relative-caret-position="17">
           <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -672,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,19 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/wonders/WonderPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,14 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/wonders/Wonder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -720,19 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/cities/TownPage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/Greeting.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,9 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,9 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,38 +673,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/cities/TownPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/requester.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/wonders/Wonder.css">
+    <entry file="file://$PROJECT_DIR$/src/components/about/AboutPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/wonders/WonderDetail.js">
+    <entry file="file://$PROJECT_DIR$/src/components/logout/LogoutPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="108" selection-start-line="30" selection-start-column="108" selection-end-line="30" selection-end-column="108" />
+        <state relative-caret-position="379">
+          <caret line="23" column="125" selection-start-line="23" selection-start-column="125" selection-end-line="23" selection-end-column="125" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -808,42 +705,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/create/Create.css">
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/about/AboutPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-467">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/create/CreatePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="306">
+          <caret line="26" column="87" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="87" />
           <folding />
         </state>
       </provider>
@@ -853,23 +718,145 @@
         <state relative-caret-position="340">
           <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/HomePage.js">
+    <entry file="file://$PROJECT_DIR$/src/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="87" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="87" />
+        <state relative-caret-position="17">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/logout/LogoutPage.js">
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cities/TownPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cities/TownPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="48" column="9" selection-start-line="39" selection-start-column="7" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/edit/Edit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wonders/Wonder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/edit/EditForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/city.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/create/CreateForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wonders/WonderDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/create/Create.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="23" column="125" selection-start-line="23" selection-start-column="125" selection-end-line="23" selection-end-column="125" />
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wonders/WonderPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/create/CreatePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wonders/Wonder.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/edit/EditPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

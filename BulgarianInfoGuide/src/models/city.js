@@ -22,14 +22,13 @@ function loadWonderDetails(cityName, wonderId, onLoadSuccess) {
 }
 
 
-function edit(cityName, cityId, name, description, imageUrl, callback) {
+function edit(cityName, wonderId, name, description, imageUrl, callback) {
     let cityWonderData = {
         name: name,
         description: description,
         image: imageUrl
-
     };
-    update('appdata', cityName + cityId, cityWonderData, 'kinvey')
+    update('appdata', cityName +"/"+ wonderId, cityWonderData, 'kinvey')
         .then(callback(true));
 }
 

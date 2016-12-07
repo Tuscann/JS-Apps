@@ -7,7 +7,7 @@
 .details-box{
     position: absolute;
     left: 12%;
-    width: 70%;
+    width: 77%;
 }
 
 .image{
@@ -20,9 +20,4 @@
 
 .titlename{
     text-align: center;
-}
-
-.wonder-detail-description{
-    position: absolute;
-    width: 50%;
 }
