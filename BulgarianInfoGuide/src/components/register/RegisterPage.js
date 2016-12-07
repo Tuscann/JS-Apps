@@ -38,7 +38,11 @@ export default class RegisterPage extends Component{
             alert("Passwords don't match");
             return;
         }
-        
+        if(!this.state.username)
+        {
+            alert("Username don't empty");
+            return;
+        }
         register(this.state.username, this.state.password,this.onRegisterSuccess);
 
     }

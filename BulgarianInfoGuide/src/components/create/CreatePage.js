@@ -35,7 +35,7 @@ export default class CreatePage extends Component {
 
     onSubmitResponse(response) {
         if (response === true) {
-            let path='/'+this.props.params.town + '/wonders';
+            let path='/'+this.props.params.town;
             this.context.router.push(path);
         }
     }
